@@ -1,0 +1,13 @@
+.home{
+    clip-path: polygon(53% 0, 100% 0%, 100% 100%, 57% 100%, 0% 50%);
+}
+
+.one{
+    animation: pulse 8s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+    0% { box-shadow:0 0 30px #fecdd3, inset 0 0 30px #fecdd3; }
+    50% { box-shadow:0 0 40px #fecdd3, inset 0 0 40px #fecdd3; }
+    100% { box-shadow:0 0 20px #fecdd3, inset 0 0 20px #fecdd3; }
+  }
